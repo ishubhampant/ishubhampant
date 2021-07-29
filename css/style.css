@@ -1,0 +1,239 @@
+
+
+
+@media only screen and (min-width: 760px) {
+
+    body::-webkit-scrollbar {
+        width: 0.7vw;
+      }
+       
+       
+      body::-webkit-scrollbar-thumb {
+        background-color: gray;
+        border-radius: 10px;
+        
+      }
+    
+    
+body{
+    margin: 0;
+    background-color: black;
+}
+
+.background{
+    width: 100%;
+    height: 35vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid #d4c900 3px ;
+}
+
+h1{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5em;
+    font-weight: bolder;
+    color: #d4c900;
+}
+
+.profile-section{
+    width: 100%;
+    height: 25vh;
+ /*   background-color: brown;*/
+position: absolute;
+    top: 22.5vh;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    
+}
+
+.profile{
+    width: 25vh;
+    height: 100%;
+   /* background-color: burlywood;*/
+    border-radius: 100px;
+    background-image: url(../images/tex.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    border: solid #d4c900 3px;
+}
+
+.content{
+  /*  background-color: cadetblue;*/
+    padding: 2% 2% .5% 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 56%;
+    height: auto;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+}
+
+.con{
+    width: 100%;
+    height: 12vh;
+  /*  background-color: chartreuse;*/
+    margin-bottom: 3%;
+}
+
+.inside{
+    width: 70%;
+    height: 100%;
+    background-color: #171717;
+    margin-left: 15%;
+    border-radius: 10px;
+   
+}
+
+.inside:hover{
+    background-color: #d4c900;
+}
+
+.image{
+    width: 30%;
+    height: 100%;
+ /*  background-color: cornflowerblue;*/
+    float: left;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line{
+    width: 70%;
+    height: 100%;
+  /*  background-color: palegoldenrod;*/
+    display: flex;
+  align-items: center;
+  color: aliceblue;
+  font-size: 1.4vw;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+}
+
+.image img{
+    height: 60%;
+}
+}
+
+
+@media only screen and (max-width: 760px) {
+    body::-webkit-scrollbar {
+        width: 0.7vw;
+      }
+       
+       
+      body::-webkit-scrollbar-thumb {
+        background-color: gray;
+        border-radius: 10px;
+        
+      }
+    
+    
+body{
+    margin: 0;
+    background-color: black;
+}
+
+.background{
+    width: 100%;
+    height: 35vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid #d4c900 3px ;
+}
+
+h1{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    font-weight: bolder;
+    color: #d4c900;
+}
+
+.profile-section{
+    width: 100%;
+    height: 20vh;
+ /*   background-color: brown;*/
+position: absolute;
+    top: 24vh;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    
+}
+
+.profile{
+    width: 20vh;
+    height: 100%;
+   /* background-color: burlywood;*/
+    border-radius: 100px;
+    background-image: url(../images/tex.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    border: solid #d4c900 3px;
+}
+
+.content{
+ /*   background-color: cadetblue;*/
+    padding: 2% 2% .5% 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width:92%;
+    height: auto;
+    margin-top: 15vh;
+    margin-bottom: 5vh;
+}
+
+.con{
+    width: 100%;
+    height: 8vh;
+  /*  background-color: chartreuse;*/
+    margin-bottom: 5%;
+}
+
+.inside{
+    width: 84%;
+    height: 100%;
+    background-color: #171717;
+    margin-left: 8%;
+    border-radius: 10px;
+   
+}
+
+.inside:hover{
+    background-color: #d4c900;
+}
+
+.image{
+    width: 30%;
+    height: 100%;
+ /*  background-color: cornflowerblue;*/
+    float: left;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line{
+    width: 70%;
+    height: 100%;
+  /*  background-color: palegoldenrod;*/
+    display: flex;
+  align-items: center;
+  color: aliceblue;
+  font-size: 3vw;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+}
+
+.image img{
+    height: 60%;
+}
+}
