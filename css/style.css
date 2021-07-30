@@ -56,6 +56,7 @@ position: absolute;
    /* background-color: burlywood;*/
     border-radius: 200px;
     background-image: url(../images/tex.jpg);
+    background-color: black;
     background-repeat: no-repeat;
     background-size: 100% ;
     border: solid #d4c900 3px;
@@ -89,7 +90,7 @@ position: absolute;
 }
 
 .inside:hover{
-    background-color: #d4c900;
+    background-color: gray;
 }
 
 .image{
@@ -185,6 +186,8 @@ h3{
 
 .twitter{
   margin-bottom: 2.5em ;
+  animation-name: fade-out;
+  animation-duration: 4s;
 }
 
 .twitter-tweet{
@@ -192,6 +195,38 @@ h3{
   margin-right: auto;
   display: block;
   
+}
+
+.mail{
+  width: 100%;
+  /*background-color: green;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5em;
+}
+
+.svg{
+  height: 3em;
+  width: 3em;
+  fill: gray;
+}
+
+.svg:hover{
+  fill: #d4c900;
+}
+
+@keyframes fade-out{
+  0%{
+    opacity: 0;
+  }
+  75%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+
 }
 
 }
@@ -264,7 +299,7 @@ position: absolute;
     margin-right: 2%;
     width:92%;
     height: auto;
-    margin-top: 4em;
+    margin-top: 2.5em;
     margin-bottom: 5vh;
 }
 
@@ -285,7 +320,7 @@ position: absolute;
 }
 
 .inside:hover{
-    background-color: #d4c900;
+    background-color: gray;
 }
 
 .image{
@@ -380,7 +415,8 @@ h3{
   margin-bottom: 1.5em;
   margin-left: auto;
   margin-right: auto;
-  display: block;
+  animation-name: fade-out;
+  animation-duration: 4s;
   
 }
 
@@ -391,4 +427,33 @@ h3{
   
 }
 
+.mail{
+  width: 100%;
+  /*background-color: green;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5em;
 }
+
+.svg{
+  height: 2em;
+  width: 2em;
+  fill: #d4c900;
+}
+
+@keyframes fade-out{
+  0%{
+    opacity: 0;
+  }
+  75%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+
+}
+
+}
+
