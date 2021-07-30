@@ -155,6 +155,32 @@ p{
     color: gray;
 }
 
+.social-hd{
+  width: 40em;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 2.5em;
+}
+
+h3{
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  color: #d4c900;
+  font-size: 2em;
+}
+
+.twitter{
+  margin-bottom: 2.5em ;
+}
+
+.twitter-tweet{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  
+}
+
 }
 
 
@@ -310,6 +336,38 @@ p{
     font-size: 0.8em;
     font-weight: bolder;
     color: gray;
+}
+
+.social-hd{
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  
+}
+
+h3{
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  color: #d4c900;
+  font-size: 1.5em;
+}
+
+.twitter{
+  width: 85%;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  
+}
+
+.twitter-tweet{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  
 }
 
 }
